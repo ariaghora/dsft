@@ -6,7 +6,7 @@ The implementation of domain specific feature transfer (DSFT) by Pengfei et al (
 
 ```python
 import numpy as np
-from dsft import DSFT
+from dsft.dsft import DSFT
 
 # create a dummy dataset for hybrid domain adaptation problem
 Xs_c = np.random.randn(100, 10) # 100 x 10 feature matrix (source common features)
