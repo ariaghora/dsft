@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='dsft',
-    version=version['__version__'],
+    version='1.0',
     description=('Domain Specific Feature Transfer'),
     long_description='The implementation of domain specific feature transfer (DSFT) by Pengfei et al (2017), "A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation" in IEEE Transactions on Knowledge and Data Engineering.',
     author='Aria Ghora Prabono',
