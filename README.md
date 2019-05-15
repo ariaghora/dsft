@@ -1,6 +1,6 @@
 # Domain Specific Feature Transfer (DSFT)
 
-The implementation of domain specific feature transfer (DSFT) by Pengfei et al (2017), "A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation" in IEEE Transactions on Knowledge and Data Engineering. The original paper can be found ![here](https://ieeexplore.ieee.org/abstract/document/8432087).
+The implementation of domain specific feature transfer (DSFT) by Pengfei et al (2017), "A General Domain Specific Feature Transfer Framework for Hybrid Domain Adaptation" in IEEE Transactions on Knowledge and Data Engineering. The original paper can be found [here](https://ieeexplore.ieee.org/abstract/document/8432087).
 
 ## Usage
 
