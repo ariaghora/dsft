@@ -70,4 +70,18 @@ class DSFT:
         Xt_h = np.hstack([Xt_c, Xt_a, Xt_d])
         
         self.trained = True
+        self.Ws = Ws
+        self.Wt = Wt
         return Xs_h, Xt_h
+    
+    def make_homogeneous_feature(self, X_c, X_d, is_target):
+        if not is_target:
+            W = self.Wt
+            X_a = X_c @ W.T
+            X_h = np.hstack([X_c, X_d, X_a])
+        else:
+            W = self.Ws
+            X_a = X_c @ W.T
+            X_h = np.hstack([X_c, X_a, X_d])
+        
+        return X_h
